@@ -1,0 +1,487 @@
+body {
+  background-color: #e5e5e5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.conteinertopo {
+  position: fixed;
+  width: 100%;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  z-index: 1;
+}
+.topo {
+  width: 935px;
+  height: 54px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.topo a {
+  font-size: 19.25px;
+}
+.barraverticaltopo {
+  width: 1px;
+  height: 22px;
+  background-color: #dbdbdb;
+  margin-left: 11.37px;
+  margin-right: 10px;
+}
+.logo-instagram {
+  width: 103px;
+}
+#divBusca {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 215px;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  border: none;
+  width: 215px;
+  height: 26px;
+}
+.icones {
+  width: 128.6px;
+  display: flex;
+  justify-content: space-between;
+}
+.icones a {
+  font-size: 22px;
+}
+.layout {
+  width: 935px;
+  margin: 54px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+}
+.ladoesquerdo {
+  width: 614px;
+}
+
+.storie {
+  margin-top: 34px;
+  width: 100%;
+  height: 118px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  max-height: 614px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.seta {
+  position: absolute;
+  top: 46px;
+  right: 8px;
+  font-size: 26px;
+  color: #8e8e8e;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 1em #8e8e8e;
+}
+.storie img {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 4px auto;
+}
+
+.iconstorie {
+  width: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.background {
+  width: 65px;
+  height: 65px;
+  background-image: url(../imagens/stories_background.jpg);
+  background-position: top;
+  background-size: 65px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: flex;
+}
+.storie p {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+  margin-top: 10px;
+}
+
+.feed {
+  margin-top: 24px;
+}
+.post {
+  width: 614px;
+  height: 795px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+.feed div:last-child {
+  margin-bottom: 24px;
+}
+video {
+  width: 612px;
+}
+img {
+  width: 612px;
+}
+.topodopost {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.topodopost ion-icon {
+  font-size: 16px;
+  margin-right: 17px;
+}
+.iconpost {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.iconpost p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  margin-left: 15px;
+}
+.iconpost a:hover {
+  text-decoration: underline;
+}
+.topodopost img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 17px;
+}
+.bottom-post1 {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.bottom-post1 ion-icon {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.bottom-post1 ion-icon:first-child {
+  margin-left: 15px;
+}
+.post p {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000;
+  margin: 5px;
+}
+.post b {
+  font-weight: bold;
+}
+.bottom-post2 {
+  height: 38px;
+  display: flex;
+}
+.barracomentarios {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+}
+.barracomentarios ion-icon {
+  font-size: 30px;
+  margin-left: 10px;
+}
+#divComentario {
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+#txtComentario {
+  float: left;
+  background-color: transparent;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  border: none;
+  width: 490px;
+  height: 30px;
+}
+button {
+  background-color: #fff;
+  color: #b2dffc;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: none;
+  margin-right: 5px;
+}
+button:hover {
+  transition-duration: 300ms;
+  color: #0095f6;
+}
+.imgicon {
+  width: 20px;
+  height: 20px;
+  margin-left: 17px;
+  border-radius: 50%;
+}
+.ladodireito {
+  width: 293px;
+  margin-top: 47px;
+  height: 100vh;
+  position: fixed;
+  top: 57px;
+  left: calc(50% + 175px);
+}
+.direitobaixo p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #c7c7c7;
+  margin-top: 18px;
+}
+.direitobaixo p:first-child {
+  margin-top: 36px;
+}
+.ladodireito img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.ladordireito img:first-child {
+  width: 56px;
+  height: 56px;
+}
+.direitoperfil {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+.direitoperfil img {
+  width: 56px;
+  height: 56px;
+}
+.textoperfil p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 17px;
+  color: #c7c7c7;
+}
+.textoperfil p:first-child {
+  margin-bottom: 3px;
+}
+.textoperfil b {
+  color: #262626;
+  font-weight: bold;
+}
+.sugestoes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.sugestoes p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+}
+.sugestoes p:first-child {
+  color: #8e8e8e;
+}
+.sugestoes p:last-child {
+  color: #262626;
+  font-weight: bold;
+}
+.sugestaoseguir {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+.sugestaoesquerda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sugestaoseguirtexto {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 11px;
+}
+.perfilsugestao {
+  font-weight: bold;
+  color: #262626;
+  margin-bottom: 2px;
+}
+.perfilsugestao:hover {
+  text-decoration: underline;
+}
+.sugestaoseguirtexto {
+  font-weight: normal;
+  color: #8e8e8e;
+}
+.sugestaodireita {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #139ef2;
+}
+.barrabottom {
+  display: none;
+}
+
+@media (max-width: 935px) and (min-width: 614px) {
+  .ladodireito {
+    display: none;
+  }
+  .topo a:first-child {
+    margin-left: 20px;
+  }
+  .icones {
+    width: 128.6px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .layout {
+    width: 935px;
+    margin: 54px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 614px) {
+  .ladodireito {
+    display: none;
+  }
+  .topo {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .topo a:first-child {
+    margin-left: 20px;
+  }
+  .barraverticaltopo {
+    display: none;
+  }
+  .seta {
+    display: none;
+  }
+  .logo-instagram {
+    margin: 0 auto;
+  }
+  #divBusca {
+    display: none;
+  }
+  .icones a:nth-child(2) {
+    display: none;
+  }
+  .icones a:nth-child(3) {
+    display: none;
+  }
+  .icones a:nth-child(4) {
+    display: none;
+  }
+  .icones {
+    height: 54px;
+    width: 40px;
+    /*   display: flex;
+    justify-content: flex-end;*/
+    align-items: center;
+    margin: 0 17px 0 0;
+  }
+  .layout {
+    width: 100vw;
+    margin: 54px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 54px;
+  }
+  .storie {
+    margin-top: 0px;
+    height: 121px;
+    border-bottom: none;
+    background-color: #e5e5e5;
+    max-width: 100%;
+  }
+  .feed {
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .barrabottom {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    height: 54px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
+  .barrabottomicon {
+    margin: 0 auto;
+    width: 90%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .barrabottomicon ion-icon {
+    font-size: 17px;
+  }
+}
+/*falta:
+gerar links
+ver como funciona quando clica em link instagram
+bonus*/

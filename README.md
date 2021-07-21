@@ -1,9 +1,10 @@
 # Instagram Project
-![GitHub repo size](https://img.shields.io/github/repo-size/issitarual/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/issitarual/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/issitarual/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/issitarual/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/issitarual/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+
+<a href="https://issitarual.github.io/projetoinstagram/#">
+<img src="https://github.com/issitarual/projetoinstagram/blob/main/assets/Design%20sem%20nome.png?raw=true" alt="Instagram Feed">
+</a>
 
 > It's a project from Bootcamp RespondeAí using CSS and HTML to create an Instagram feed with desktop and mobile version.
 
